@@ -1,0 +1,68 @@
+:root {
+    --corprincipal: white;
+}
+
+button {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-style: none;
+    background-color: var(--corprincipal);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffbdde;
+    cursor: pointer;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.80);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #ffcee6;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px #f7c7de;
+}
+
+body {
+    font-family: initial;
+    background-color: var(--corprincipal);
+    color: #4a3b32;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    background-color: #ffbdde;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 10px 50px #f7c7de;
+}
+
+header h1 {
+    color: var(--corprincipal);
+    margin: 0;
+    font-size: 2.5rem;
+}
+footer {
+    background-color: #ffbdde;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 10px 50px #f7c7de;
+    margin-top: 338px;
+}
